@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage("Clone Code"){
             steps{
-                git url: "https://github.com/saiprasad66/django-notes-app, branch: "main"
+                git url: "https://github.com/saiprasad66/django-notes-app, branch: "master"
             }
         }
         stage("Build and Test"){
